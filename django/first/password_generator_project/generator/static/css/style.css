@@ -1,0 +1,25 @@
+body{
+    background: rgb(241, 241, 170);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.container{
+    width: 400px;
+    margin: 0 auto;
+}
+.container form, .container h2{
+    background: rgb(108, 172, 155);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.container h1{
+    text-align: center;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #FFEB3B;
+    padding: 20px 10px;
+}
